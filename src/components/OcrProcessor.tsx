@@ -68,14 +68,14 @@ const OcrProcessor: React.FC = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-8xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">Extract Text from Images</h2>
-        <p className="text-gray-600 mb-8">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Extract Text from Images</h2>
+        <p className="text-gray-600 mb-8 text-center">
           Upload an image containing text and our OCR technology will extract the content for you.
           Supports PNG, JPG, and JPEG formats.
         </p>
